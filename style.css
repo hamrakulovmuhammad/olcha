@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1700px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: #da002b;
+    height: 60px;
+    display: flex;
+}
+
+.left {
+    margin-left: 90px;
+    gap: 350px;
+    align-items: center;
+    display: flex;
+}
+
+.buttons {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    height: 35px;
+    width: 135px;
+    border: 0;
+    border-radius: 10px;
+    color: #da002b;
+}
+
+.number {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.747);
+    background: #da002c00;
+}
+
+.theree {
+    font-size: 17px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.747);
+    border: 0;
+    background: #da002c00;
+}
+
+
+.number h1 {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 26px;
+}
+
+.number p {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.747);
+    ;
+}
+
+.nuber hr {
+    height: 50px;
+}
+
+.center {
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.l {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    height: 60px;
+    width: 170px;
+    border-radius: 15px;
+    background: #ff000000;
+}
+
+.login {
+    gap: 50px;
+    display: flex;
+}
+
+.o {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form button {
+    border: 0;
+    cursor: pointer;
+    background: #da002b;
+    width: 90px;
+    margin-left: -94px;
+    height: 55px;
+    margin-top: 2px;
+    border-radius: 17px;
+}
+
+input {
+    caret-color: red;
+    border: 0;
+    background: rgba(128, 128, 128, 0.082);
+    padding-left: 30px;
+    font-size: 24px;
+    width: 650px;
+    height: 60px;
+    border-radius: 10px;
+    color: blue;
+}
+
+.o img {
+    width: 40px;
+    height: 40px;
+}
+
+.elem {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgba(128, 128, 128, 0.486);
+}
+
+.img img {
+    border-radius: 10px;
+    height: 354px;
+    width: 1050px;
+}
+
+.red {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: red;
+}
+
+.circle {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_two {
+    margin-left: 150px;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.reklam h6 {
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+    margin-left: 20px;
+    background: #ffe600ad;
+}
+
+.reklam {
+    border-radius: 10px;
+    width: 255px;
+    height: 353px;
+    border: 3px solid red;
+}
+
+.reklam h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.reklam p {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.reklam h5 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.o h1 {
+    font-size: 16px;
+}
+
+.logo {
+    margin-left: 80px;
+    display: flex;
+    gap: 50px;
+}
+
+form {
+    display: flex;
+}
+
+.big {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.cr {
+    margin-top: 22px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgba(128, 128, 128, 0.486);
+}
+
+.advertisement_flex {
+    margin-bottom: 60px;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.advertisement {
+    width: 450px;
+    height: 170px;
+    border-radius: 10px;
+    background: url(.//img/watchs.png) no-repeat center / cover;
+}
+
+.ic img {
+    width: 35px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.phone_block h1 {
+    font-size: 21px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 310px;
+}
+
+.phone_block h3 {
+    margin-top: 15px;
+    background: #ffe600ad;
+    width: 190px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+.phone {
+    display: flex;
+    gap: 60px;
+    width: 281px;
+    height: 300px;
+}
+
+.phone_block {
+    width: 350px;
+    height: 500px;
+}
+
+.phone_icons {
+    display: flex;
+}
+
+.lil {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #da002c00;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+button img {
+    width: 40px;
+    height: 35px;
+}
+
+.lol {
+    width: 245px;
+    height: 55px;
+    background: #ff000000;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}
+
+.button_flex {
+    display: flex;
+    gap: 20px;
+}
+
+.phones_flex {
+    width: 1700px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    gap: 70px;
+    justify-content: center;
+}
+
+img.ic_img {
+    width: 40px;
+    height: 80px;
+}
+
+.step_one {
+    display: flex;
+    gap: 8.47%;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left_side {
+    width: 409px;
+}
+
+.download {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer {
+    width: 1700px;
+    height: 800px;
+    background: rgba(128, 128, 128, 0.274);
+}
+
+.download img {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    width: 170px;
+}
+
+.step_one h1 {
+    font-size: 20px;
+    width: 405px;
+    margin-bottom: 32px;
+}
+
+.container_theree {
+    margin-top: 125px;
+}
+
+.we {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 85px;
+    margin-bottom: 50px;
+}
+
+.olcha h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.olcha img {
+    margin-bottom: 20px;
+}
+
+.information h1 {
+    margin-bottom: 20px;
+    color: #da002b;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+}
+
+.olcha p {
+    margin-bottom: 10px;
+}
+
+
+
+.cart {
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cart img {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    height: 104px;
+    justify-content: center;
+    width: 118px;
+}
+
+.shooping h1 {
+    background: #da002b;
+    color: white;
+    font-size: 18px;
+}
